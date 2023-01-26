@@ -1,14 +1,15 @@
 import React from 'react'
+import { Provider } from 'redux'
+import store from './store'
 
+import AllDay from './components/AllDay.jsx'
 
 const App = () => {
 
-
   return (
-    <>
-    <div>HOLA MUNDO</div>
-
-    </>
+    <Provider store={store}>
+      <AllDay />
+    </Provider>
   )
 }
 
