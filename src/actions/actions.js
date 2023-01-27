@@ -4,7 +4,8 @@ export const addItem = (item) => {
     payload: item
   }
 }
-export const deleteItem = (item) = {
+export const deleteItem = (item) => {
+  console.log('INSIDE DEL ITEM ACTION: ', item, typeof item)
   return {
     type: 'DELETE_ITEM',
     payload: item

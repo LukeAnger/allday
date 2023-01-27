@@ -1,15 +1,22 @@
-import { ADD_ITEM, DELETE_ITEM } from '../actions/actionTypes.js'
 
 const initialState = {
-  list: [];
+  list: []
 };
 
-export default const allDayReducer = (state = initialState, action) => {
+export const allDayReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ADD_ITEM:
+    case 'ADD_ITEM':
     return {
       ...state,
       list: [...state.list, action.payload]
-    }
+    };
+    case 'DELETE_ITEM':
+      return {
+        ...state,
+        list: state.list.filter(item => item !== action.payload)
+      }
+    default:
+      return state;
   }
 }
+
