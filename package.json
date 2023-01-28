@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/LukeAnger/allday/issues"
   },
-  "homepage": "http://LukeAnger.github.io/allday",
+  "homepage": "https://LukeAnger.github.io/allday",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
