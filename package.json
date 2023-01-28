@@ -1,5 +1,6 @@
 {
   "name": "allday",
+  "homepage": "https://LukeAnger.github.io/allday",
   "version": "1.0.0",
   "description": "Empowering Restaurant Kitchens with Technology",
   "main": "index.js",
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/LukeAnger/allday/issues"
   },
-  "homepage": "https://LukeAnger.github.io/allday",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
