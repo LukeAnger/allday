@@ -6,6 +6,8 @@
   "scripts": {
     "test": "test",
     "start": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode=production",
     "dev": "webpack serve --open"
   },
